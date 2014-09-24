@@ -1,0 +1,36 @@
+{
+	"ImportPath": "github.com/stahnma/halbot",
+	"GoVersion": "go1.3.1",
+	"Deps": [
+		{
+			"ImportPath": "bitbucket.org/kardianos/osext",
+			"Comment": "null-13",
+			"Rev": "5d3ddcf53a508cc2f7404eaebf546ef2cb5cdb6e"
+		},
+		{
+			"ImportPath": "github.com/ccding/go-config-reader/config",
+			"Rev": "8b6c2b50197f20da3b1c5944c274c173634dc056"
+		},
+		{
+			"ImportPath": "github.com/ccding/go-logging/logging",
+			"Comment": "v0.1-15-gc0585d1",
+			"Rev": "c0585d19814ac8e8a37b9253bf25cc6152ba7a6b"
+		},
+		{
+			"ImportPath": "github.com/daneharrigan/hipchat",
+			"Rev": "3771c828e00996ff1c89a12e738770cdb2e38399"
+		},
+		{
+			"ImportPath": "github.com/danryan/env",
+			"Rev": "bc567f4d372a17eb756004cdbfd8458ecc04b07e"
+		},
+		{
+			"ImportPath": "github.com/danryan/hal",
+			"Rev": "a3db27961f769032353b4b81de2f81beb3fc3a06"
+		},
+		{
+			"ImportPath": "github.com/stahnma/handler",
+			"Rev": "f97fe277e021ea59a6d9d0cf78a6378ee18703fa"
+		}
+	]
+}
