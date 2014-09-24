@@ -4,8 +4,8 @@ import (
 	"github.com/danryan/hal"
 	_ "github.com/danryan/hal/adapter/hipchat"
 	_ "github.com/danryan/hal/store/memory"
+	"github.com/stahnma/handler"
 	"os"
-	"stahnma.com/stahnma/handler"
 )
 
 //var echoHandler = hal.Respond(`echo (.+)`, func(res *hal.Response) error {
