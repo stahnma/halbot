@@ -24,5 +24,14 @@ Layout your code like this http://golang.org/doc/code.html
 Here's another article on godep http://www.goinggo.net/2013/10/manage-dependencies-with-godep.html
 
 
+#TODO
 
+There are oh so many things to do to make this worth while.
+
+
+    * Package for deployment
+    * Have init scripts
+    * Figure out logging
+    * Perhaps put it in a container
+    * Remove manual step of sourcing env vars
 
