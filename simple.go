@@ -23,7 +23,7 @@ func run() int {
 		return 1
 	}
 
-	tableFlipHandler := &hal.BasicHandler{
+	tableFlipHandler := &hal.Handler{
 		Method:  hal.HEAR,
 		Pattern: `tableflip`,
 		Run: func(res *hal.Response) error {
@@ -31,7 +31,7 @@ func run() int {
 		},
 	}
 
-	beerHandler := &hal.BasicHandler{
+	beerHandler := &hal.Handler{
 		Method:  hal.HEAR,
 		Pattern: `beer`,
 		Run: func(res *hal.Response) error {
